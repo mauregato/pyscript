@@ -1,8 +1,9 @@
+#!/usr/bin/env python
 __author__ = 'david'
 def shut_down(s):
-    if shut_down(s) == yes:
+    if s == 'yes':
         return "Shutting down"
-    elif shut_down(s) == no:
+    elif s == 'no':
         return "Suttdonw aborted"
     else:
         return "Sorry"
