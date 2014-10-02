@@ -22,6 +22,8 @@ def rental_car_cost(days):
 
 def trip_cost(city, days, spending_money):
     return spending_money + rental_car_cost(days) + hotel_cost(days) + plane_ride_cost(city)
-#el valor que debe dar es 1955
+
+#El valor que debe dar es 1955
 print trip_cost('Los Angeles', 5, 600)
+#End
 
