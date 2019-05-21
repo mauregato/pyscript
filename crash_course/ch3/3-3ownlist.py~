@@ -1,0 +1,2 @@
+transport = ['black', 'Suzuki', 'small', 'economic']
+print('I would like to buy a ' + transport[1] + transport[0])

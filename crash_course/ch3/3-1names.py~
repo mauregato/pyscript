@@ -1,0 +1,2 @@
+names=['Jordan', 'Victor', 'Alex', 'Pedro']
+print(names[0])
