@@ -1,0 +1,2 @@
+dinner_people = [ 'Paul', 'Tom', 'Ruth' ]
+print ("Dear" + dinner_people[0] + 'you are invite t dinner this night")
