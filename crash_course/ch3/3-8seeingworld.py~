@@ -1,0 +1,2 @@
+location = [ 'roma', 'tokyo', 'moscow', 'london', 'sidney' ]
+print(location)
