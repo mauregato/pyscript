@@ -1,0 +1,2 @@
+lang = [ 'python', 'gnuC', 'perl', 'java', 'lisp', 'fortrand' ]
+print(lang)
