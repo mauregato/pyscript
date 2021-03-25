@@ -1,14 +1,14 @@
 #!/usr/bin/env python
-hrs = raw_input("Enter Hours: ")
+hrs = input("Enter Hours: ")
 h = float(hrs)
-inp = raw_input("Enter rate: ")
+inp = input("Enter rate: ")
 rate = float(inp)
-print rate, h
+print (rate, h)
 if h <= 40:
     pay = rate * h
-    print pay
+    print (pay)
 else:
     normal = 40 * rate
     extra = ((h-40) * 1.5) * rate
     pay = normal+extra
-    print pay
+    print (pay)

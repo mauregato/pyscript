@@ -7,6 +7,6 @@ except:
     ival = -1
 
 if ival > 0:
-    print 'Nice work'
+    print ('Nice work')
 else:
-    print 'Not a number'
+    print ('Not a number')
